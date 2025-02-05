@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx ./src/index.ts",
     "watch": "nodemon ./src/index.ts",
@@ -13,7 +14,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1"
+  },
   "eslintConfig": {
     "root": true,
     "extends": [
